@@ -1,0 +1,9 @@
+[gd_resource type="Resource" load_steps=2 format=3 uid="uid://v6fp1aigmmew"]
+
+[ext_resource type="Script" path="res://resources/upgrades/ability_upgrade.gd" id="1_3ofhm"]
+
+[resource]
+script = ExtResource("1_3ofhm")
+id = "sword_rate"
+name = "Sword Quickness"
+description = "검의 공격속도가 10%증가합니다"
