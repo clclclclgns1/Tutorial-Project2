@@ -27,3 +27,8 @@ res://resources/upgrades/ability_upgrade.gd
 res://resources/upgrades/sword_rate.tres
 res://scene/maneger/upgrade_manager.tscn
 res://scene/maneger/upgrade_manager.gd
+res://scene/ui/ability_upgrade_card.tscn
+res://scene/ui/ability_upgrade_card.gd
+res://scene/ui/upgrade_screen.tscn
+res://scene/ui/upgrade_screen.gd
+res://scene/maneger/arena_time_manager.tscn
