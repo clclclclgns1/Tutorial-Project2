@@ -38,7 +38,8 @@ func on_timer_timeout():
 	)
 	
 	var sword_instace = sword_ability.instantiate() as SwordAbility
-	player.get_parent().add_child(sword_instace)
+	var foreground_layer = get_tree().get_first_node_in_group("foreground_layer")
+	foreground_layer.add_child(sword_instace)
 	sword_instace.hit_box_component.damage = damage
 	
 	sword_instace.global_position = enemies[0].global_position
